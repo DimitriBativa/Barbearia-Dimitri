@@ -1,6 +1,11 @@
 #banner {
   width: 100%;
 }
+.principal{
+  background-color: #CCCCCC;
+  padding: 30px;
+}
+
 .titulo-principal {
   padding-left: 20px;
 }
@@ -15,4 +20,15 @@ p {
 
 .texto-centralizado {
   text-align: center;
+}
+
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.imagem-beneficio {
+  width: 50%;
 }

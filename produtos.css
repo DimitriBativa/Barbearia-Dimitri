@@ -8,7 +8,7 @@ header{
   margin: 0 auto;
 }
 nav {
-  position: relative;
+  position: absolute;
   top: 110;
   right: 0;
 }
@@ -34,6 +34,18 @@ nav a:hover{
   margin: 0 auto;
   padding: 50px;
 }
+.produtos h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+.produto-descricao{
+  font-size: 18px;
+}
+.produto-preco{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 48px 0;
+}
 .produtos li{
   display: inline-block;
   border: 1px solid #000000;
@@ -45,3 +57,15 @@ nav a:hover{
   box-sizing: border-box;
   padding: 30px 20px;
 }
+footer{
+  background: url("bg.jpg");
+  text-align: center;
+  padding: 48px 0;
+}
+.copyright {
+  color: #FFFFFF;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+

@@ -82,7 +82,7 @@ footer{
   font-size: 13px;
   margin-top: 20px;
 }
-    
+
 main{
   width: 940px;
   margin: 0 auto;
@@ -130,4 +130,51 @@ thead{
 th, td {
   border: 1px solid #555555;
   padding: 8px 15px;
+}
+
+#banner {
+  width: 100%;
+}
+.principal{
+  background-color: #CCCCCC;
+  padding: 30px;
+}
+
+.titulo-principal {
+  padding-left: 20px;
+}
+p {
+  text-align: center;
+}
+
+em strong {
+  color: red;
+}
+
+#missao {
+  font-size: 28px;
+
+}
+
+.texto-centralizado {
+  text-align: center;
+}
+
+.beneficios{
+  padding: 20px;
+  background-color: #ffffff;
+}
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.item{
+  font-style: italic;
+}
+
+.imagem-beneficio {
+  width: 50%;
 }

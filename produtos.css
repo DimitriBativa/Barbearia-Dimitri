@@ -132,19 +132,23 @@ th, td {
   padding: 8px 15px;
 }
 
-#banner {
+.banner {
   width: 100%;
 }
 .principal{
-  background-color: #CCCCCC;
-  padding: 30px;
+  background-color: #FEFEFE;
+  padding: 1em 0;
+  margin: 0 auto;
 }
 
 .titulo-principal {
   padding-left: 20px;
-}
-p {
   text-align: center;
+  margin: 0 0 1em;
+}
+
+.principal p {
+  margin: 0 0 1em;
 }
 
 em strong {
@@ -156,14 +160,11 @@ em strong {
 
 }
 
-.texto-centralizado {
-  text-align: center;
-}
-
 .beneficios{
   padding: 20px;
   background-color: #ffffff;
 }
+
 ul{
   display: inline-block;
   vertical-align: top;
@@ -177,4 +178,10 @@ ul{
 
 .imagem-beneficio {
   width: 50%;
+}
+
+.utensilios {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
 }

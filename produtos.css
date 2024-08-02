@@ -84,8 +84,9 @@ footer{
 }
 
 main{
+  background: linear-gradient(#fefefe, #888888);
   width: 940px;
-  margin: 0 auto;
+  margin: 0, auto;
 }
 
 .input-padrao{
@@ -148,7 +149,9 @@ th, td {
 }
 
 .principal p {
-  margin: 0 0 1em;
+  padding: 1em 0;
+  width: 940px;
+  margin: 0, auto;
 }
 
 em strong {
@@ -162,7 +165,8 @@ em strong {
 
 .beneficios{
   padding: 20px;
-  background-color: #ffffff;
+  width: 940px;
+  margin: 0, auto;
 }
 
 ul{
